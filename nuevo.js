@@ -24,7 +24,7 @@ client.on('message', async (message) => {
     }
 
      // Si el mensaje es "hola", responde "¿Cómo estás?"
-    if (message.body.toLowerCase() === 'Formas de pago') {
+    if (message.body.toLowerCase() === 'Pago') {
         await message.reply(' Zelle, Zinli, Binance USDT Ac.gomez195@gmail.com PayPal: Andreagomezlista@gmail.com Transferencia en Bs: Andrea Gomez  01050251910251110249');
     }
 });

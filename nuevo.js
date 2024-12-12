@@ -26,24 +26,24 @@ client.on('message', async (message) => {
      // Si el mensaje es "hola", responde "¿Cómo estás?"
     if (message.body.toLowerCase() === 'Formas de pago') {
         await message.reply('
-                            👉🏻Zelle, Zinli, Binance (USDT):
+                            Zelle, Zinli, Binance (USDT):
                             Ac.gomez195@gmail.com
                             
-                            👉🏻PayPal:
+                            PayPal:
                             Andreagomezlista@gmail.com
                             
-                            👉🏻Transferencia en Bs: 
+                            Transferencia en Bs: 
                             Andrea Gomez 
                             01050251910251110249 
                             V-27795509 
                             Mercantil
                             
-                            👉🏻Pago móvil:
+                            Pago móvil:
                             04123642949
                             27795509
                             Mercantil
                             
-                            ✅Recuerda enviarnos el comprobante de pago por esta vía
+                            Recuerda enviarnos el comprobante de pago por esta vía
         ');
     }
 });
